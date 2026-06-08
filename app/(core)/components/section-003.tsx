@@ -20,9 +20,9 @@ export default function Section003() {
   return (
     <section
       id="section-003"
-      className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]"
+      className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] mx-auto max-w-7xl px-2 mb-32"
     >
-      <div className="rounded-[2rem] border border-slate-950/5 bg-slate-950 p-6 text-white shadow-[0_24px_80px_rgba(15,23,42,0.2)] sm:p-8">
+      <div className="rounded-lg border border-slate-950/5 bg-slate-950 p-6 text-white sm:p-8">
         <div className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-white/75">
           Section 003
         </div>
@@ -50,7 +50,7 @@ export default function Section003() {
         </div>
       </div>
 
-      <div className="grid gap-4 rounded-[2rem] border border-white/70 bg-white/80 p-6 shadow-[0_18px_60px_rgba(15,23,42,0.06)] backdrop-blur-md sm:p-8">
+      <div className="grid gap-4 rounded-lg border border-white/70 bg-white/80 p-6 backdrop-blur-md sm:p-8">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">
             What it can help with
@@ -77,7 +77,7 @@ export default function Section003() {
           ))}
         </div>
 
-        <div className="rounded-[1.5rem] bg-gradient-to-br from-amber-50 to-rose-50 p-5">
+        <div className="rounded-lg bg-gradient-to-br from-amber-50 to-rose-50 p-5">
           <p className="text-sm font-semibold text-slate-900">
             Example recommendation
           </p>

@@ -1,13 +1,11 @@
 const links = [
-  { href: "#section-001", label: "Overview" },
-  { href: "#section-002", label: "Tracking" },
-  { href: "#section-003", label: "AI" },
-  { href: "#section-004", label: "Wearables" },
+  { href: "/#features", label: "Features" },
+  { href: "/#privacy", label: "Privacy" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/70 bg-white/60 backdrop-blur-xl">
+    <footer className="border-t border-slate-200 bg-white">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div>
           <p className="text-sm font-semibold text-slate-950">
