@@ -4,6 +4,7 @@ import ScrollSmootherProvider from "./(core)/components/scroll-smoother-provider
 import TopNavigation from "./(core)/components/top-navigation";
 import Footer from "./(core)/components/footer";
 import { AuthProvider } from "./(core)/providers/auth-provider";
+import ThemeToggle from "./(core)/components/theme-toggle";
 
 export const metadata: Metadata = {
   title: "Wellbeing AI",
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-white text-slate-950">
+        <ThemeToggle />
         <AuthProvider>
           <ScrollSmootherProvider>
             <TopNavigation />
